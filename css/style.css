@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: ease-in-out 0.5s;
+}
+body {
+  overflow-y: none;
+}
+nav {
+  width: 100%;
+  padding: 0 10%;
+  background-color: #ddd;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+nav .nav-logo img {
+  width: 50px;
+}
+nav .toggler {
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+nav .toggler span {
+  width: 100%;
+  background-color: #000;
+  display: inline-block;
+  height: 15%;
+  border-radius: 15px;
+}
+.side-bar {
+  width: 0px;
+  background-color: #000;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+.side-bar a {
+  text-decoration: none;
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+  padding: 10% 19%;
+}
+.side-bar a:hover {
+  text-decoration: none;
+  color: #9ba0f2;
+  background-color: #3b3d5f;
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+  padding: 20% 19%;
+}
+.side-bar .nav-close {
+  display: inline-block;
+  align-self: flex-end;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+}
+.side-bar .nav-close span {
+  display: inline-block;
+  width: 100%;
+  height: 10%;
+  background-color: #fff;
+  border-radius: 10px;
+  transform: rotate(45deg) translate(-36%);
+}
+.side-bar .nav-close .first-close {
+  transform: rotate(-45deg) translate(-36%);
+}
+.nav-blocker {
+  width: 0%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  position: fixed;
+  z-index: -1;
+  transition: 0.4s;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+.first .img-cont .f1st-img {
+  width: 949px;
+  display: none;
+}
+.first .img-cont .t2nd-img {
+  width: 700px;
+  display: none;
+}
+.first .img-cont .t3rd-img {
+  width: 550px;
+  display: none;
+}
+.first .img-cont .f4th-img {
+  width: 300px;
+}
+.first .text-cont h1{
+    font-size: 6vw;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Mada', sans-serif;
+}
+.first .text-cont p{
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: 200;
+    font-family: "Shadows Into Light", cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
