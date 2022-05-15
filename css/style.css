@@ -4,9 +4,6 @@
   text-decoration: none;
   transition: ease-in-out 0.5s;
 }
-body {
-  overflow-y: none;
-}
 nav {
   width: 100%;
   padding: 0 10%;
@@ -96,7 +93,7 @@ nav .toggler span {
   cursor: pointer;
 }
 .first .img-cont .f1st-img {
-  width: 949px;
+    width: 949px;
   display: none;
 }
 .first .img-cont .t2nd-img {
@@ -110,90 +107,64 @@ nav .toggler span {
 .first .img-cont .f4th-img {
   width: 300px;
 }
-.first .text-cont h1{
-    font-size: 6vw;
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Mada', sans-serif;
+.first .text-cont h1 {
+  font-size: 450%;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Mada", sans-serif;
 }
-.first .text-cont p{
-    font-size: 2.5vw;
-    text-align: center;
-    font-weight: 200;
-    font-family: "Shadows Into Light", cursive;
+.first .text-cont p {
+  font-size: 200%;
+  text-align: center;
+  font-weight: 200;
+  font-family: "Shadows Into Light", cursive;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 1199px) {
+  .first .text-cont h1 {
+    font-size: 4.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .first .text-cont h1 {
+    font-size: 3.75rem;
+  }
+}
+@media (max-width: 767px) {
+  .first .text-cont h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .first .text-cont p {
+    font-size: 1.875rem;
+  }
+}
+@media (max-width: 1199px) {
+  .first .text-cont p {
+    font-size: 200%;
+  }
+}
+@media (max-width: 991px) {
+  .first .text-cont p {
+    font-size: 190%;
+  }
+}
+@media (max-width: 767px) {
+  .first .text-cont p {
+    font-size: 180%;
+  }
+}
+@media (max-width: 612px) {
+  .first .text-cont p {
+    font-size: 170%;
+  }
+}
+.body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.scroll {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}

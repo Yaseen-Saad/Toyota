@@ -11,7 +11,4 @@ function oppinenig_nav(params) {
   const closer2 = document.getElementById("nav-closer");
   nav.style.width = "250px";
   closer2.style.width = "100%";
-
-
-
 }
