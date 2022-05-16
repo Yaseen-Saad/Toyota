@@ -167,4 +167,35 @@ nav .toggler span {
 .scroll {
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  height: 100vh;
+}
+.second .img-cont img{
+    display: inline-block;
+    transform: translate(-39% ,14%);
+    z-index: -4;
+    width: 180%;
+    margin:  auto;
+}
+.z-index{
+    z-index: 3;
+}
+  @media (max-width: 991px) {
+    .second .img-cont img{
+        width: 219%; 
+        transform: translate(-49% ,18%);
+      }
+  }
+  @media (max-width: 767px) {
+    .second .img-cont img{
+        width: 180%;
+        transform: translate(-39% ,14%);
+    }
+  }
+  .body::-webkit-scrollbar {
+    display: none;
+}
+
+.body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
