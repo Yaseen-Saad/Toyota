@@ -167,7 +167,6 @@ nav .toggler span {
 .scroll {
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  height: 100vh;
 }
 .second .img-cont img{
     display: inline-block;
