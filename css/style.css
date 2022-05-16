@@ -7,7 +7,7 @@
 nav {
   width: 100%;
   padding: 0 10%;
-  background-color: #ddd;
+  background-color: transparent;
   height: 50px;
   display: flex;
   overflow: hidden;
@@ -19,9 +19,10 @@ nav .nav-logo img {
   width: 50px;
 }
 nav .toggler {
-  width: 50px;
+  width: 30px;
   cursor: pointer;
-  height: 50px;
+  height: 35px;
+  margin-top: 7.5px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -30,8 +31,7 @@ nav .toggler span {
   width: 100%;
   background-color: #000;
   display: inline-block;
-  height: 15%;
-  border-radius: 15px;
+  height: 10%;
 }
 .side-bar {
   width: 0px;
@@ -115,6 +115,7 @@ nav .toggler span {
 }
 .first .text-cont p {
   font-size: 200%;
+  padding: 0 10%;
   text-align: center;
   font-weight: 200;
   font-family: "Shadows Into Light", cursive;
@@ -193,8 +194,53 @@ nav .toggler span {
   .body::-webkit-scrollbar {
     display: none;
 }
-
 .body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+  .second .text-cont h2{
+    font-size: 3.5rem;
+  }
+
+@media (max-width: 1199px) {
+  .second .text-cont h2{
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .second .text-cont h2{
+    font-size: 2.75rem;
+  }
+}
+@media (max-width: 767px) {
+  .second .text-cont h2{
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
