@@ -218,9 +218,19 @@ nav .toggler span {
   }
 }
 
-
-
-
+.second .text-cont{
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.second .text-cont a{
+  background-image: linear-gradient(to right, #84abec, #cf84fb);
+  width: 193px;
+  text-align: center;
+  border-radius: 1234567px;
+  padding: 11px;
+  color: white;
+  text-decoration: none;
+}
 
 
 
