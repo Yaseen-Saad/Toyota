@@ -4,10 +4,11 @@
   text-decoration: none;
   transition: ease-in-out 0.5s;
 }
+
 nav {
   width: 100%;
   padding: 0 10%;
-  background-color: transparent;
+  background-color: white;
   height: 50px;
   display: flex;
   overflow: hidden;
@@ -129,43 +130,6 @@ nav .toggler span {
   margin: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .z-index {
   z-index: 3;
 }
@@ -209,68 +173,6 @@ nav .toggler span {
   width: 159%;
   margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 1199px) {
   .first .text-cont p {
@@ -325,7 +227,7 @@ nav .toggler span {
     font-size: 180%;
   }
   .second .img-cont .img {
-    width: 180%;
+    width: 100%;
     transform: translate(-11%, -5%);
   }
   .first .text-cont h1 {
@@ -362,6 +264,9 @@ nav .toggler span {
 @media (max-width: 612px) {
   .first .text-cont p {
     font-size: 170%;
+  }
+  .overflow-clip {
+    overflow: clip;
   }
   .second .text-cont img {
     left: -3%;
