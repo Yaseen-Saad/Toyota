@@ -1,188 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Toyota</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
-    <link rel="stylesheet" href="fontawsome/all.min.css">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <!--
-    font-family: 'Cairo', sans-serif;
--->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
-        rel="stylesheet">
-    <!--
-    font-family: 'Oleo Script Swash Caps', cursive;
--->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <!--
-    font-family: 'Shadows Into Light', cursive;
--->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400;500;600;700;900&display=swap"
-        rel="stylesheet">
-    <!--
-    font-family: 'Mada', sans-serif;
--->
-    <!-- BootStrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <!-- Normalize css -->
-    <link rel="stylesheet" href="normalize/normalize.css">
-    <!-- Style Css -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <head>
+        <title>Toyota</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+        <link rel="stylesheet" href="fontawsome/all.min.css">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <!--
+        font-family: 'Cairo', sans-serif;
+    -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+            rel="stylesheet">
+        <!--
+        font-family: 'Oleo Script Swash Caps', cursive;
+    -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <!--
+        font-family: 'Shadows Into Light', cursive;
+    -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400;500;600;700;900&display=swap"
+            rel="stylesheet">
+        <!--
+        font-family: 'Mada', sans-serif;
+    -->
+        <!-- BootStrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css.map">
+        <!-- Normalize css -->
+        <link rel="stylesheet" href="normalize/normalize.css">
+        <!-- Style Css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body>
-    <section id="side-bar" class="side-bar">
-        <span onclick="closing_nav()" id="nav-close" class="nav-close">
-            <span class="first-close"></span><span class="secound-close"></span>
-        </span>
-        <a href="#">Home</a>
-        <a href="#">Contact Us</a>
-        <a href="#">About Us</a>
-        <a href="#">Service</a>
-        <a href="#">Order</a>
-        <div id="nav-closer" onclick="closing_nav()" class="nav-blocker"></div>
-    </section>
-    <nav>
-        <div class="nav-logo">
-            <img src="images/logo.png" alt="logo">
-        </div>
-        <div onclick="oppinenig_nav()" class="toggler">
-            <span class="first_span"></span>
-            <span class="middle_span"></span>
-            <span class="last_span"></span>
-        </div>
-    </nav>
-    <section class="body">
-        <section class="first scroll container">
-            <div class="row flex-wrap-reverse">
-                <div class="text-cont col-sm-12 col-md-12">
-                    <h1>Toyota Concept-I Series</h1>
-                    <p>Toyota Concept-i and its forward-thinking UX hold a mirror up to a future that is
-                        warm, friendly, engaging and, most of all—fun. Without further ado, meet Concept-i.
-                    </p>
-                </div>
-                <div class="img-cont d-flex justify-content-center mt-md-2 mt-lg-4 col-sm-12 col-md-12">
-                    <img src="images/1st.jpeg" class="f1st-img d-md-none d-lg-inline-block d-sm-none" alt="toyota car">
-                    <img src="images/1st.jpeg" class="t2nd-img d-md-inline-block d-lg-none d-sm-none" alt="toyota car">
-                    <img src="images/1st.jpeg" class="t3rd-img d-md-none d-lg-none d-sm-inline-block" alt="toyota car">
-                    <img src="images/1st.jpeg" class="f4th-img d-md-none d-lg-none d-sm-none" alt="toyota car">
-                </div>
-            </div>
+    <body>
+        <section id="side-bar" class="side-bar">
+            <span onclick="closing_nav()" id="nav-close" class="nav-close">
+                <span class="first-close"></span><span class="secound-close"></span>
+            </span>
+            <a href="#">Home</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Service</a>
+            <a href="#">Order</a>
+            <div id="nav-closer" onclick="closing_nav()" class="nav-blocker"></div>
         </section>
-        <section class="second scroll flex-wrap-reverse container">
-            <div class="row flex-wrap-reverse h-100">
-                <section class="col-md-6 img-cont col-sm-12">
-                    <img src="images/2nd.jpeg" alt="">
+        <nav>
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div onclick="oppinenig_nav()" class="toggler">
+                <span class="first_span"></span>
+                <span class="middle_span"></span>
+                <span class="last_span"></span>
+            </div>
+        </nav>
+        <section class="body">
+            <section class="first scroll container">
+                <div class="row flex-wrap-reverse">
+                    <div class="text-cont col-sm-12 col-md-12">
+                        <h1>Toyota Concept-I Series</h1>
+                        <p>Toyota Concept-i and its forward-thinking UX hold a mirror up to a future that is
+                            warm, friendly, engaging and, most of all—fun. Without further ado, meet Concept-i.
+                        </p>
+                    </div>
+                    <div class="img-cont d-flex justify-content-center mt-md-2 mt-lg-4 col-sm-12 col-md-12">
+                        <img src="images/1st.jpeg" class="f1st-img d-md-none d-lg-inline-block d-sm-none" alt="toyota car">
+                        <img src="images/1st.jpeg" class="t2nd-img d-md-inline-block d-lg-none d-sm-none" alt="toyota car">
+                        <img src="images/1st.jpeg" class="t3rd-img d-md-none d-lg-none d-sm-inline-block" alt="toyota car">
+                        <img src="images/1st.jpeg" class="f4th-img d-md-none d-lg-none d-sm-none" alt="toyota car">
+                    </div>
+                </div>
+            </section>
+            <section class="second scroll flex-wrap-reverse container">
+                <div class="row flex-wrap-reverse h-100">
+                    <section class="col-md-6 img-cont col-sm-12">
+                        <img src="images/2nd.jpeg" alt="">
+                    </section>
+                    <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
+                        <img src="images/bd87ca380d82a1c6fad66fa9fc53bc48.png" alt="">
+                        <h2 class="mt-4">The future has arrived.</h2>
+                        <p>While we can't predict the future, we can inspire it. So what will our cars look like and how
+                            will
+                            they function? Will we drive them or will they drive us? That seems to be the question on
+                            everyone's
+                            mind. Well, we have an idea. Cars are for people who want to go to more places safely and
+                            efficiently</p>
+                        <a class="mb-4" href="#">learn more</a>
+                    </section>
+                </div>
+            </section>
+            <section class="second scroll flex-wrap-reverse container">
+                <div class="row h-100">
+                    <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
+                        <h2 class="mt-4">Less of a machine. More of a pal.</h2>
+                        <p>Concept-i follows our belief that vehicles shouldn't start with technology—they should start, and
+                            end, with the experience of the people who use them. Therefore, Concept-i was built from the
+                            inside out, with a focus on making it immersive, energetic and, most importantly—approachable.
+                        </p>
+                        <a style="background-image: linear-gradient(to right, #35ced0, #84abec);" class="mb-4"
+                            href="#">learn more</a>
+                    </section>
+                    <section class="col-md-6 overflow-clip img-cont col-sm-12">
+                        <img class="img" src="images/094e953db5791c71cbf6cb2692c9da18.jpeg" alt="">
+                    </section>
+                </div>
+            </section>
+            <section class="second scroll flex-wrap-reverse container">
+                <div class="row h-100">
+                    <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
+                        <h2 class="mt-4">Neue Toyota Concept Cars in Tokio</h2>
+                        <p>At the 2016 Consumer Electronics Show (CES) in Las Vegas, Toyota is demo’ing it’s idea of the
+                            “Future of Mobility”. As has become plainly obvious over the last couple years, Toyota believes
+                            plug-in vehicles will fail and that fuel cell EV’s are the future. While other companies are at
+                            CES showing off battery based EV’s, Toyota is sticking with their fuel cells.
+                        </p>
+                        <a style="background-image: linear-gradient();" class="mb-4" href="#">learn more</a>
+                    </section>
+                    <section class="col-md-6 overflow-clip img-cont col-sm-12">
+                        <img class="img" src="images/8be8de663c4ab7eee8b3e53c31cbb581.jpeg" alt="">
+                    </section>
+                </div>
+            </section>
+            <section class="second scroll flex-wrap-reverse container">
+                <div class="row flex-wrap-reverse h-100">
+                    <section class="col-md-6 img-cont col-sm-12">
+                        <img src="images/4c134e2df3106c5e28f93f94161e3242.png" alt="">
+                    </section>
+                    <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
+
+                        <h2 class="mt-4">Concept-i looks as brilliant</h2>
+                        <p>Its minimal yet artful interior is designed to help support its user experience. Lines flow from
+                            the center of the dashboard throughout the vehicle, while Yui travels around them, using light,
+                            sound and even touch to communicate critical information. It utilizes a single wide-screen, 3-D,
+                            full-color Head-Up Display that blends into an interior that is clean and uncluttered. </p>
+                        <a style=" background-image:none; background-color: black;" class="mb-4" href="#">learn more</a>
+                    </section>
+                </div>
+            </section>
+            <section style="width:105%; background-image: linear-gradient(-90deg, #cf84fb, #35ced0);">
+                <section class="second scroll sus container">
+                    <div class="row h-100">
+                        <section class="col-md-6 img-cont col-sm-12">
+                            <p class="changeable">In the future, we envision you, Yui and the car working together—like
+                                teammates. Now, here comes
+                                the really fun part. Thanks to the car's advanced automated driving technologies, people
+                                with
+                                all levels of ability can enjoy the ride. You're still in charge of the car. However,
+                                through
+                                biometric sensors throughout the car, Concept-i can detect what you're feeling. </p>
+                        </section>
+                        <section class="col-md-6  text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
+                            <article class="diff">
+                                <h2 class="zamelyny">Concept-i puts the <span>“i” in team.</span></h2>
+
+                                <a class=" black-button mb-4" href="#">learn more</a>
+                            </article>
+                        </section>
+                    </div>
                 </section>
-                <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
+            </section>
+            <section class="second scroll flex-wrap-reverse container">
+                <div class="row flex-wrap-reverse h-100">
+                    <section class="col-md-6 img-cont col-sm-12">
+                        <img class="alot" src="images/5ca4eb0fe5123ec0b4e42bfc8e44ced5.jpeg" alt="">
+                    </section>
+                    <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
+                        <img src="images/bd87ca380d82a1c6fad66fa9fc53bc48.png" alt="">
+                        <h2 class="mt-4">Join us in the future.</h2>
+                        <p>Check out the recent unveiling of Toyota Concept-i at CES 2017. And if you want even more info,
+                            check out our recent press release.</p>
+                        <a class="mb-4" href="#">learn more</a>
+                    </section>
+                </div>
+            </section>
+            <section class="row">
+                <section class="text-cont text">
                     <img src="images/bd87ca380d82a1c6fad66fa9fc53bc48.png" alt="">
-                    <h2 class="mt-4">The future has arrived.</h2>
-                    <p>While we can't predict the future, we can inspire it. So what will our cars look like and how
-                        will
-                        they function? Will we drive them or will they drive us? That seems to be the question on
-                        everyone's
-                        mind. Well, we have an idea. Cars are for people who want to go to more places safely and
-                        efficiently</p>
-                    <a class="mb-4" href="#">learn more</a>
+                    <h2>JOIN US IN THE FUTURE.
+                    </h2>
+                    <p>Our vision for the car of the future starts with "Yui."
+                        Designed from the inside out, Toyota Concept-i is an exciting glimpse into a future mobility that is
+                        warm, friendly and revolves around you.</p>
                 </section>
-            </div>
+            </section>
+            <section class="images container">
+                <div class="row justify-content-evenly">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 image"><img src="images/1.jpeg" alt=""></div>
+
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 image"><img src="images/2.jpeg" alt=""></div>
+
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 image"><img src="images/3.jpeg" alt=""></div>
+
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 image"><img src="images/5.jpeg" alt=""></div>
+                </div>
+                <div class="row justify-content-evenly">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 image"><img src="images/4.jpeg" alt=""></div>
+
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 image"><img src="images/6.jpeg" alt=""></div>
+
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 image"><img src="images/7.jpeg" alt=""></div>
+
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 image"><img src="images/8.jpeg" alt=""></div>
+                </div>
+            </section>
+            <footer>
+                <section class="foot">
+                    <img style="width: 100px; margin:auto; display: block;"
+                        src="images/37296cc26cc11a0fe94853b94e0ea48f.png" alt="gg">
+                    <article class="container">
+                        <section class="row justify-content-center text-center">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                Header
+                                <br>
+                                sample footer text
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                Header
+                                <br>
+                                sample footer text
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                Header
+                                <br>
+                                sample footer text
+                            </div>
+                        </section>
+                    </article>
+                    <div class="contanct text-center">
+                        <i class="fa-brands fa-2x fa-facebook"></i>
+                        <i class="fa-brands fa-2x fa-instagram"></i>
+                        <i class="fa-brands fa-2x fa-linkedin-in"></i>
+                        <i class="fa-brands fa-2x fa-twitter"></i>
+                        <i class="fa-brands fa-2x fa-facebook-messenger"></i>
+                        <i class="fa-brands fa-2x fa-whatsapp"></i>
+                        <i class="fa-brands fa-2x fa-github"></i>
+                        <i class="fa-brands fa-2x fa-git"></i>
+                        <i class="fa-brands fa-2x fa-twitch"></i>
+                        <i class="fa-brands fa-2x fa-snapchat"></i>
+                        <i class="fa-brands fa-2x fa-pinterest"></i>
+                        <i class="fa-brands fa-2x fa-youtube"></i>
+                        <i class="fa-brands fa-2x fa-tiktok"></i>
+                    </div>
+                </section>
+                <section class="foott text-center">
+                    all copyrights are saved <i class="fa-regular fa-copyright"></i>
+                    <br>
+                    created by <a href="">yasoo saad</a>
+                    <br>
+                    used skills
+                    <br>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-html5 "></i>
+                    <i class="fa-brands fa-js "></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-font-awesome"></i>
+                    <i class="fa-solid fa-code"></i>
+                </section>
+            </footer>
         </section>
-        <section class="second scroll flex-wrap-reverse container">
-            <div class="row h-100">
-                <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
-                    <h2 class="mt-4">Less of a machine. More of a pal.</h2>
-                    <p>Concept-i follows our belief that vehicles shouldn't start with technology—they should start, and
-                        end, with the experience of the people who use them. Therefore, Concept-i was built from the
-                        inside out, with a focus on making it immersive, energetic and, most importantly—approachable.
-                    </p>
-                    <a style=" background-image:none; background-color: black;" class="mb-4" href="#">learn more</a>
-                </section>
-                <section class="col-md-6 overflow-clip img-cont col-sm-12">
-                    <img class="img" src="images/094e953db5791c71cbf6cb2692c9da18.jpeg" alt="">
-                </section>
-            </div>
-        </section>
-        <section class="second scroll flex-wrap-reverse container">
-            <div class="row h-100">
-                <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
-                    <h2 class="mt-4">Neue Toyota Concept Cars in Tokio</h2>
-                    <p>At the 2016 Consumer Electronics Show (CES) in Las Vegas, Toyota is demo’ing it’s idea of the
-                        “Future of Mobility”. As has become plainly obvious over the last couple years, Toyota believes
-                        plug-in vehicles will fail and that fuel cell EV’s are the future. While other companies are at
-                        CES showing off battery based EV’s, Toyota is sticking with their fuel cells.
-                    </p>
-                    <a style="background-image: linear-gradient();" class="mb-4" href="#">learn more</a>
-                </section>
-                <section class="col-md-6 overflow-clip img-cont col-sm-12">
-                    <img class="img" src="images/8be8de663c4ab7eee8b3e53c31cbb581.jpeg" alt="">
-                </section>
-            </div>
-        </section>
-        <section class="second scroll flex-wrap-reverse container">
-            <div class="row flex-wrap-reverse h-100">
-                <section class="col-md-6 img-cont col-sm-12">
-                    <img src="images/4c134e2df3106c5e28f93f94161e3242.png" alt="">
-                </section>
-                <section class="col-md-6 text-cont col-sm-12 d-flex z-index flex-column justify-content-evenly">
-
-                    <h2 class="mt-4">Concept-i looks as brilliant</h2>
-                    <p>Its minimal yet artful interior is designed to help support its user experience. Lines flow from
-                        the center of the dashboard throughout the vehicle, while Yui travels around them, using light,
-                        sound and even touch to communicate critical information. It utilizes a single wide-screen, 3-D,
-                        full-color Head-Up Display that blends into an interior that is clean and uncluttered. </p>
-                        <a style=" background-image:none; background-color: black;" class="mb-4" href="#">learn more</a>                </section>
-            </div>
-        </section>
 
 
 
 
+        <!-- BootStrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="bootstrap/bootstrap.min.js"></script>
+        <script src="bootstrap/bootstrap.min.css.map"></script>
 
+        <!-- fontawesome JS -->
+        <script src="fontawsome/all.min.js"></script>
+        <!-- Scroll Magic JS -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    </section>
-    <!-- BootStrap JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script> -->
-    <script src="bootstrap/bootstrap.min.js"></script>
-    <!-- fontawesome JS -->
-    <script src="fontawsome/all.min.js"></script>
-    <!-- Scroll Magic JS -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-
-    <!-- JS -->
-    <script src="main-js/main.js"></script>
+        <!-- JS -->
+        <script src="main-js/main.js"></script>
+    </body>
 
 </html>

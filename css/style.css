@@ -2,9 +2,15 @@
   box-sizing: border-box;
   text-transform: capitalize;
   text-decoration: none;
+  z-index: 4;
   transition: ease-in-out 0.5s;
 }
-
+.body {
+  overflow-x: clip;
+  width: 98.3vw;
+  margin: 50px auto;
+  z-index: -2109387;
+}
 nav {
   width: 100%;
   padding: 0 10%;
@@ -13,9 +19,9 @@ nav {
   display: flex;
   overflow: hidden;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 4;
+  z-index: 4413233;
 }
 nav .nav-logo img {
   width: 50px;
@@ -129,10 +135,6 @@ nav .toggler span {
   width: 180%;
   margin: auto;
 }
-
-.z-index {
-  z-index: 3;
-}
 .second .text-cont {
   justify-content: space-evenly;
   height: 100vh;
@@ -151,7 +153,7 @@ nav .toggler span {
   display: none;
 }
 .body {
-  -ms-overflow-style: none;
+  -ms-overflow-style: none !important;
   scrollbar-width: none;
 }
 .second .text-cont h2 {
@@ -168,13 +170,194 @@ nav .toggler span {
 
 .second .img-cont .img {
   display: inline-block;
-  transform: translate(-5%, 66%);
+  transform: translate(-5%, 39%);
   z-index: -4;
   width: 159%;
   margin: auto;
 }
+.changeable {
+  transform: translate(0, 20%);
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 70%;
+  color: white;
+}
+.zamelyny {
+  font-family: "Oleo Script Swash Caps", cursive;
+  transform: translate(13%, 16%);
+}
+.diff {
+  width: 101%;
+  height: 350px;
+  transform: translate(-24%, 0);
+  background-color: white;
+  border-radius: 50% 0 0 50%;
+  margin: auto;
+}
+.diff::after {
+  content: "";
+  width: 208%;
+  background-color: white;
+  height: 100%;
+  top: 0%;
+  left: 312px;
+  position: absolute;
+  z-index: -20;
+}
+.black-button {
+  transform: translate(39%, 44%);
+  background-image: none !important;
+  background-color: black;
+  display: inline-block;
+}
+.image {
+  display: inline-block;
+  width: 220px;
+  overflow: clip;
+  box-shadow: 0px 0px 8px 5px #9377ab;
+  border-radius: 58px;
+  height: 320px;
+  margin-top: 10%;
+}
+.slider {
+  display: flex;
+  width: 250vw;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.image:hover img {
+  filter: blur(0px);
+  transform: scale(1.3) rotate(-15deg);
+  opacity: 0.7;
+}
+.image img {
+  filter: blur(5px);
+  width: 213%;
+  margin: 0 -45%;
+  height: 100%;
+}
+.buttons .i {
+  font-size: 6rem;
+}
+.text {
+  margin: 176px 0 0 19px;
+  position: relative;
+}
+.text img {
+  position: absolute;
+  z-index: -1;
+  top: -102%;
+  left: -3%;
+  width: 176PX;
+}
+footer .foot{
+margin-top: 30px;
+  background-color: #2b2933;
+  padding: 30px;
+  color: white;
+}footer .foot .row .col-md-6{
+  padding: 20px 0;
+}
+footer .foot .img{
+width: 100px;
+}
+.contact{
+  padding: 10px 15%;
+}
+footer .foott{
+  font-size: 0.7rem;
+color: white;
+padding: 20px;
+  background-color: #333333;
+}
+footer .foott a{
+font-size: 0.7rem;
+color: red;
+text-decoration: none;
+
+}
+footer .foott a:hover{
+  font-size: 0.8rem;
+  color: #a0fbff;
+  text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1199px) {
+  .text img {
+  position: absolute;
+  z-index: -1;
+  top: -102%;
+  left: -3%;
+  width: 176PX;
+}
   .first .text-cont p {
     font-size: 200%;
   }
@@ -184,17 +367,23 @@ nav .toggler span {
   .second .text-cont h2 {
     font-size: 3.5rem;
   }
-  .scroll {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-  }
-  .body {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
+  .zamelyny {
+    transform: translate(18%, 17%);
   }
 }
+.body {
+  height: 100vh;
+  width: 98vw;
+  overflow-x: clip;
+}
 @media (max-width: 991px) {
+  .text img {
+    position: absolute;
+    z-index: -1;
+    top: -102%;
+    left: -3%;
+    width: 176PX;
+  }
   .first .text-cont h1 {
     font-size: 3.75rem;
   }
@@ -210,25 +399,35 @@ nav .toggler span {
   }
   .second .img-cont .img {
     width: 200%;
-    transform: translate(-9%, 82%);
   }
-  .scroll {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
+  .changeable {
+    font-size: 1rem;
   }
   .body {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
     height: 100vh;
+    width: 97.4vw;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 787px) {
+  .text img {
+    position: absolute;
+    z-index: -1;
+    top: -63%;
+    left: -2%;
+    width: 114PX;
+  }
   .first .text-cont p {
     font-size: 180%;
   }
+  .text {
+    margin: 116px 0 0 19px;
+    position: relative;
+  }
   .second .img-cont .img {
     width: 100%;
-    transform: translate(-11%, -5%);
+
+    margin: 3% 0% -2% 23%;
+    transform: translate(0, 0);
   }
   .first .text-cont h1 {
     font-size: 3rem;
@@ -237,11 +436,16 @@ nav .toggler span {
     font-size: 2rem;
   }
   .second .img-cont img {
-    width: 180%;
-    transform: translate(-39%, 14%);
+    width: 169%;
+
+    transform: translate(0, 0);
+    margin: 14% 0% 0% -76%;
   }
   .second .text-cont {
     height: auto;
+  }
+  .body {
+    width: 96.4vw;
   }
   .second .text-cont h2,
   .second .text-cont p,
@@ -256,12 +460,30 @@ nav .toggler span {
     width: 25%;
     top: -1%;
   }
-  .scroll {
-    scroll-snap-align: none;
-    scroll-snap-stop: normal;
+
+  .diff {
+    margin-top: 10%;
+    width: 73%;
+    height: 300px;
+    transform: translate(15%, 5%);
+    background-color: white;
+    border-radius: 50% 0 0 50%;
+  }
+  .diff::after {
+    left: 180px;
   }
 }
 @media (max-width: 612px) {
+  .text img {
+    position: absolute;
+    z-index: -1;
+    top: -31%;
+    left: -3%;
+    width: 100PX;
+  }
+  .changeable {
+    font-size: 0.8rem;
+  }
   .first .text-cont p {
     font-size: 170%;
   }
@@ -273,9 +495,28 @@ nav .toggler span {
     width: 19%;
     top: 8%;
   }
+  .second .img-cont img.alot {
+    width: 144%;
+    transform: translate(0, 0);
+    margin: 15% 0% 0% -29%;
+  }
 }
 @media (max-width: 500px) {
   .first .text-cont p {
     font-size: 1.875rem;
+  }
+}
+@media (max-width: 400px) {
+  .text img {
+    position: absolute;
+    z-index: -1;
+    top: -31%;
+    left: -3%;
+    width: 100PX;
+  }
+  .second .text-cont img {
+    left: -4%;
+    width: 28%;
+    top: 6%;
   }
 }
